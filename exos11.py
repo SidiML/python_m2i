@@ -1,7 +1,5 @@
 def greet_us(name1, name2):
-    #print('Bonjour {} {}'.format(name1, name2))
-    print(f'Bonjour {name1} {name2}')
-
-
-
-greet_us('Michel', 'Doumbouya')
+    result = name1+" "+name2
+    return result
+    
+print(greet_us('Michel', 'Doumbouya'))

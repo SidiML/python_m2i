@@ -1,5 +1,6 @@
 def soustract(nbre1,nbre2):
     resultat = nbre1 - nbre2
-    print("Je soustrais {} et {} et le résultat = {}".format(nbre1,nbre2,resultat))
+    print("Je soustrais {} et {}".format(nbre1,nbre2))
+    return resultat
     
-soustract(1,2)
+print(soustract(1,2))
